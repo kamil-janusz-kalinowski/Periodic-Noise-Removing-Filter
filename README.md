@@ -4,6 +4,6 @@ This repository contains a modified version of the code from the OpenCV document
 
 The main function loads an input image, applies various processing steps including obtaining the Power Spectral Density (PSD) of the image, thresholding, morphological closing, and finding bounding boxes for noise regions. It then generates two types of filters: one based on the automated bounding boxes (H), and another using Gaussian functions (G). These filters are applied to the input image to remove noise, and the results are displayed.
 
-Furthermore, the repository includes utility functions for image processing and loading, as well as functions for generating and applying the filters.
+Furthermore, experimental results suggest that the Gaussian function filter (G) tends to provide slightly improved noise removal compared to the original sharp cut-off circle filter (H).
 
-Lastly, the repository provides functionality to visualize and save the results, including the PSD of the input image, the generated filters (FilterH and FilterG), and the deblurred images (DeblurringH and DeblurringG).
+![image](https://github.com/kamil-janusz-kalinowski/Periodic-Noise-Removing-Filter/assets/143912944/1ec574f7-cde1-44d3-a636-548dc2aa6b16)
